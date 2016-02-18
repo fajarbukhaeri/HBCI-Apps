@@ -32,9 +32,6 @@ if(isset($_POST['btn-login']))
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   </head><body>
-    <div class="cover">
-      <div class="cover-image"></div>
-    </div>
     <div class="section section-info">
       <div class="container">
         <div class="row">
