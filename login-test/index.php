@@ -10,11 +10,10 @@ if($login->is_loggedin()!="")
 
 if(isset($_POST['btn-login']))
 {
-  $uname = strip_tags($_POST['txt_uname_email']);
-  $umail = strip_tags($_POST['txt_uname_email']);
+  $uname = strip_tags($_POST['txt_id']);
   $upass = strip_tags($_POST['txt_password']);
     
-  if($login->doLogin($uname,$umail,$upass))
+  if($login->doLogin($uname,$upass))
   {
     $login->redirect('home.php');
   }
@@ -50,7 +49,7 @@ if(isset($_POST['btn-login']))
                 <?php } ?>
               </div>
               <div class="form-group">
-                <input class="form-control input-sm" placeholder="Username or Email" type="text" name="txt_uname_email">
+                <input class="form-control input-sm" placeholder="ID Anggota" type="text" name="txt_id">
                 <input class="form-control input-sm" placeholder="Password" type="password" name="txt_password">
               </div>
               <button type="submit" class="btn btn-block btn-primary" name="btn-login">
