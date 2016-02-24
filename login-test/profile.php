@@ -18,10 +18,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> 
-<link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> 
 <script type="text/javascript" src="js/jquery.min.js"></script>
-<link rel="stylesheet" href="css/style.css" type="text/css"  />
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <title>welcome - <?php print($userRow['user_email']); ?></title>
 </head>
 
